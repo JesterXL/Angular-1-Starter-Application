@@ -63,7 +63,7 @@ gulp.task('analyze', function() {
 });
 
 // Like analyze, but stops if something doesn't pass a quality gate.
-gulp.task('analyzeAndFix', function()
+gulp.task('analyzeWhileIFix', function()
 {
     return gulp.src(CONFIG.client.sourceFiles)
     .pipe(jshint())
