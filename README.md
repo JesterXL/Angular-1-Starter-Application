@@ -1,5 +1,15 @@
 # Angular-1-Starter-Application
-Basic starter application for Angular 1.4 to get you up and developing.
+Basic starter application for Angular 1.4 to get you up and developing. Utilizes Gulp for DevOps build, Angular 1.3 for the client using ui-router for routing, mocha for unit testing, chai for assertions, Karma for test runner, Express for static file serving, Restify for REST API, Redis for server-side caching, and MongoDB for NoSQL database.
+
+# Installation
+
+1. checkout the code
+2. cd to the directory
+3. run `npm install && bower install` in your Terminal
+4. ensure Redis is running. You don't have to have it, but it's AOWP's recommended caching engine.
+5. Install MongoDB.
+6. then type `gulp`
+7. navigate to `http://localhost:8628` in your browser
 
 # Gulp Tasks
 
