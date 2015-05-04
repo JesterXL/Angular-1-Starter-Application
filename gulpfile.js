@@ -102,6 +102,13 @@ gulp.task('test', function (done)
 	  });
 });
 
+// shows your coverage
+gulp.task('showCoverage', function()
+{
+    gulp.src('./coverage/html/index.html')
+        .pipe(open());
+});
+
 // runs Karma in CI mode, and re-runs unit tests while you code. Made for uber-fast unit testing
 // or hardercore refactoring runs.
 gulp.task('testWhileICode', function(done)
